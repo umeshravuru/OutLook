@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "884e1744-f7f8-48a0-b4ce-70f1393dccb8",
+		"name": "Outlook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Outlook - Calender - Get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkFRQUJBQUFBQUFDRWZleFh4amFtUWIzT2VHUTRHdWd2bjFKeGV5eXNGVmMtLXJoNVlaSGJYeUlPLTkzS2l3MjR3WVVRSlBmVlAtdEE1anQzbFcwZGtGazdLVngwSWI4NkRVQXUwMElWYVRMRWFTUEV4MzItWnlBQSIsImFsZyI6IlJTMjU2IiwieDV0IjoibmJDd1cxMXczWGtCLXhVYVh3S1JTTGpNSEdRIiwia2lkIjoibmJDd1cxMXczWGtCLXhVYVh3S1JTTGpNSEdRIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9mYjdlNjcxMS1iNjE5LTRmYmUtYWZlNi1mODNiMTI2NzMzMjMvIiwiaWF0IjoxNTQ3Njc0ODczLCJuYmYiOjE1NDc2NzQ4NzMsImV4cCI6MTU0NzY3ODc3MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhLQUFBQW5aZzBSUzVXUlFrMXB2aEg1ZWpZOEk2aG01d25ORm9vMGxDbjZtaHk3Znc9IiwiYXBwX2Rpc3BsYXluYW1lIjoidGVzdGluZyIsImFwcGlkIjoiYmEzYmZjYjMtNTQxMC00YzAyLWI1NjEtY2E1ZjQ1MjRhODYwIiwiYXBwaWRhY3IiOiIxIiwiZGV2aWNlaWQiOiI4MTdjMzk5Ni00YWI1LTQzMjgtODBhYy03ZGE4NGRmY2JmMmUiLCJmYW1pbHlfbmFtZSI6IlJBVlVSVSIsImdpdmVuX25hbWUiOiJVTUVTSCIsImlwYWRkciI6IjUwLjIwNy4yOC4xMCIsIm5hbWUiOiJSYXZ1cnUsIFVtZXNoIiwib2lkIjoiZjI2Mzg5ZTgtODJjMy00MjIxLWE3NTktNTViNTg3MjkwMTk0Iiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTQ1MDI4NTEzNy0zNjE2Njc4MzA5LTEyNDQ4NTY3NTItNDMwMDExMyIsInBsYXRmIjoiNSIsInB1aWQiOiIxMDAzM0ZGRkFCMDgwQjRGIiwic2NwIjoiQ2FsZW5kYXJzLlJlYWQgTWFpbC5TZW5kIG9wZW5pZCBwcm9maWxlIFVzZXIuUmVhZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJkdmNfbW5nZCIsImR2Y19jbXAiXSwic3ViIjoiWVVpbEV4eWZMSUhZVmlBNW54SEhob3VEQjZpWEVXbUlKOUVCUk04TmMtUSIsInRpZCI6ImZiN2U2NzExLWI2MTktNGZiZS1hZmU2LWY4M2IxMjY3MzMyMyIsInVuaXF1ZV9uYW1lIjoiVU1FU0hfUkFWVVJVQGhvbWVkZXBvdC5jb20iLCJ1cG4iOiJVTUVTSF9SQVZVUlVAaG9tZWRlcG90LmNvbSIsInV0aSI6IlVDZk5IaVpIdkVhOW5vM2Zwd0JpQUEiLCJ2ZXIiOiIxLjAiLCJ4bXNfc3QiOnsic3ViIjoiTEw5ZFRtVVRHb05tamk3YjQxZExiQXZqRTNnaW5IS3lCYXppcTM5MHpKbyJ9LCJ4bXNfdGNkdCI6MTM4MDczNDQyOH0.SUQLWq8v2stVsSXVRA9N_EDj7u9t502JxajM9nv5i9N2m6EWt_TwrYFw1R0z2Bi5IHwDMalg-MVUHowyKpb1ILz27ehjAu4rWIr7ynvrknzHq5wtGnQpM0hgVlKKMmUBnMgJRAwC2f8AtbgcRU9CIVK4mx6AGNKanT8l1vrUVWICKZN88vn6YnykgaaAmIg3KPfju3FJvGh6vmtEhWYi09rJm_Gu8r2fmD1-9j0jsKM_6aVd2E7BqKfpLKaSgh3y-WRSAxen7GX1J06zoYoGRwYFTDwmcFV0Ep0AskSy_BbOKG7HmiCRPZxrVtqGHl5Kr9rlZN7XS4rfPxn9YM9yMg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "outlook.timezone",
+						"value": "Eastern Standard Time",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://graph.microsoft.com/v1.0/me/calendarview?startdatetime=2019-01-14T06:10:46.364Z&enddatetime=2019-01-21T06:10:46.364Z",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"me",
+						"calendarview"
+					],
+					"query": [
+						{
+							"key": "startdatetime",
+							"value": "2019-01-14T06:10:46.364Z"
+						},
+						{
+							"key": "enddatetime",
+							"value": "2019-01-21T06:10:46.364Z"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Access and Refresh Token Using \"CODE\"",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "ba3bfcb3-5410-4c02-b561-ca5f4524a860",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "!7x]&mP{F7:!$W*Fc^*_f#",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://localhost:8080",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "openid profile offline_access calendars.Read mail.send",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "OAQABAAIAAACEfexXxjamQb3OeGQ4GugvWGktEMbHgyYB0w_7FnSmko6y3e1fQRdDQQrmyQg-JGdV96Q5nmBir-hYALzs1S2PUuUFZebPsWuKNmg2eeY_ZWnkP9y6jmlAuHOPmj0LwTYiyASlGMAJ-4VzoE2qnxtJ9Hs7rTY9o8JYtm-4ldTiPLL0lX5qkpO549csDsOZKXbV_LkUolGnfKAC8vqytucvPVFtg_tQ-OyL7EWVyif8zC8R1K0YBM4i1GY2U4nMf8Kaol5_-eNItMUU77QiJPKEiP5dezKWq1neH6vcKwAYE8SsKS7G7ZTW2CGTpbD0UapaWcz6fC4vVU0RiKpK0hPCaRfAHHwbi0Qyo-3tMajaQmf5qRADqNs5n22qerCewLcsFJo75qQzlLGr-Ly-chebN28Dw2HU9s-I05sDZopwLJ_FGq4UNVGIgaMLxSSaHowYzWkmOQ7VoB4r9EpedLnyaKVXFEbY0X8apLGWHUV_-wQlyCtQlyFRgWLyXmLOnz137QLJyYrOGHLS8aZYQRmc2nKt9JinHZs96juSICPa5Nm7wFkT5C5qVWyuCXsPxemZdyDYjrnwBBc27JzKjWuZxFWUTEeXsTyijniDHOK6Kw6Ei0PKjqH8iuXa6f8_QugP-JFKv6R5NSMdxBD5Oo1BSAUU58BQ0Ov5rE6VBCjIYy2G4b4PB5PM_9toWbxYssmjtj_TtwWlTNa1joQWhxOge3505vbZv0DnWfkz72o618WScuwIPoum1somM3Q3zkVzMI8K_H-rKwPod9NpJkPYsKUdM5atP8znja8V8l1ePW7QdiIzoy3VOFNeygNKUlAgAA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/fb7e6711-b619-4fbe-afe6-f83b12673323/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"fb7e6711-b619-4fbe-afe6-f83b12673323",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Access Token from Refresh token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "ba3bfcb3-5410-4c02-b561-ca5f4524a860",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "OAQABAAAAAACEfexXxjamQb3OeGQ4GugvgLrXNiM6bqW9qMGp3uFBSQLg9cACY10sAK6VMCnVykQdlp9JAkP-cLfY47JUZKkO8onWTR0F4Qhtn-ZuofwvG9dQgN_-9phmIiPhxdDZkj0iaCXtRwFls_wx9-c2_s5AVEkj7_fNxZOSzt6v7YDgQ-BI6dlxz7GPDjCbVoz6-jjTaxOBs06Tej2aZBMf7wIKzhMTuI8wfGK-MFJfwRrneLLqgbOzgNlmRwVUNIOB47IDG5nnH32yfRO2SVSkFDtdRECw0vCqeYk8xh7_m4HnKVuf-eDR0Mqt5HVmTLtXpmv5g9Q_3zErlRoa3KwAzUhJNmUX5aU6hqsYDU-1A52DpdVbP8RksRw3Mi4vkTxqaGmVEWTPLjBiSo_e9loHnJ27lwNQIuTt-eJYYEKxS7ax5FOmkguGwYsC5o_La3WyuFaW4OV0Db2ZS53eqo5_hETwurqJqjH27KIgSPUEZ3Q_HvNiELhGxYDghgsfOX-fbFTHdqemmnDn8nvfPtcyLEtVRFyF-5UxCiQ1c2X6cjXpMaTF-pAVJYNup7kXkD3fSHRfk_KYEuzZZ2Nc5XzyzTWkqFYARRH2Q-AlsJB7t2Iu5NkRPkALgAoBwjr2PseclPwHhGeMGK6Z3-1o5dStSaAbVE64RIcN5q3dtBiIgBgzmxfaKMsJtx9h9LWIVuU2z8wXNTOwJumhd2nC-UY5i5ehG-PhD48ME4klW3bxyZjSEf58SosvoR-fwA_qnv75jPnli8nxr2-WRZCGJxZ4uvpTd5fcITsKPAp4X4a9nN2hAhOZD-0EbM3NizIsj3s0-WmTw7CFoN64VSWPCtrDFn1S_sBg_qvd-W64wqzo9malrxXLhUjHy9uk63C7XvEwa-bMqN4--4K3XDYd598z2Z8jIAA",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "refresh_token",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "!7x]&mP{F7:!$W*Fc^*_f#",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/fb7e6711-b619-4fbe-afe6-f83b12673323/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"fb7e6711-b619-4fbe-afe6-f83b12673323",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Email using Access token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkFRQUJBQUFBQUFDRWZleFh4amFtUWIzT2VHUTRHdWd2bjFKeGV5eXNGVmMtLXJoNVlaSGJYeUlPLTkzS2l3MjR3WVVRSlBmVlAtdEE1anQzbFcwZGtGazdLVngwSWI4NkRVQXUwMElWYVRMRWFTUEV4MzItWnlBQSIsImFsZyI6IlJTMjU2IiwieDV0IjoibmJDd1cxMXczWGtCLXhVYVh3S1JTTGpNSEdRIiwia2lkIjoibmJDd1cxMXczWGtCLXhVYVh3S1JTTGpNSEdRIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9mYjdlNjcxMS1iNjE5LTRmYmUtYWZlNi1mODNiMTI2NzMzMjMvIiwiaWF0IjoxNTQ3Njc0ODczLCJuYmYiOjE1NDc2NzQ4NzMsImV4cCI6MTU0NzY3ODc3MywiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFTUUEyLzhLQUFBQW5aZzBSUzVXUlFrMXB2aEg1ZWpZOEk2aG01d25ORm9vMGxDbjZtaHk3Znc9IiwiYXBwX2Rpc3BsYXluYW1lIjoidGVzdGluZyIsImFwcGlkIjoiYmEzYmZjYjMtNTQxMC00YzAyLWI1NjEtY2E1ZjQ1MjRhODYwIiwiYXBwaWRhY3IiOiIxIiwiZGV2aWNlaWQiOiI4MTdjMzk5Ni00YWI1LTQzMjgtODBhYy03ZGE4NGRmY2JmMmUiLCJmYW1pbHlfbmFtZSI6IlJBVlVSVSIsImdpdmVuX25hbWUiOiJVTUVTSCIsImlwYWRkciI6IjUwLjIwNy4yOC4xMCIsIm5hbWUiOiJSYXZ1cnUsIFVtZXNoIiwib2lkIjoiZjI2Mzg5ZTgtODJjMy00MjIxLWE3NTktNTViNTg3MjkwMTk0Iiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTQ1MDI4NTEzNy0zNjE2Njc4MzA5LTEyNDQ4NTY3NTItNDMwMDExMyIsInBsYXRmIjoiNSIsInB1aWQiOiIxMDAzM0ZGRkFCMDgwQjRGIiwic2NwIjoiQ2FsZW5kYXJzLlJlYWQgTWFpbC5TZW5kIG9wZW5pZCBwcm9maWxlIFVzZXIuUmVhZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJkdmNfbW5nZCIsImR2Y19jbXAiXSwic3ViIjoiWVVpbEV4eWZMSUhZVmlBNW54SEhob3VEQjZpWEVXbUlKOUVCUk04TmMtUSIsInRpZCI6ImZiN2U2NzExLWI2MTktNGZiZS1hZmU2LWY4M2IxMjY3MzMyMyIsInVuaXF1ZV9uYW1lIjoiVU1FU0hfUkFWVVJVQGhvbWVkZXBvdC5jb20iLCJ1cG4iOiJVTUVTSF9SQVZVUlVAaG9tZWRlcG90LmNvbSIsInV0aSI6IlVDZk5IaVpIdkVhOW5vM2Zwd0JpQUEiLCJ2ZXIiOiIxLjAiLCJ4bXNfc3QiOnsic3ViIjoiTEw5ZFRtVVRHb05tamk3YjQxZExiQXZqRTNnaW5IS3lCYXppcTM5MHpKbyJ9LCJ4bXNfdGNkdCI6MTM4MDczNDQyOH0.SUQLWq8v2stVsSXVRA9N_EDj7u9t502JxajM9nv5i9N2m6EWt_TwrYFw1R0z2Bi5IHwDMalg-MVUHowyKpb1ILz27ehjAu4rWIr7ynvrknzHq5wtGnQpM0hgVlKKMmUBnMgJRAwC2f8AtbgcRU9CIVK4mx6AGNKanT8l1vrUVWICKZN88vn6YnykgaaAmIg3KPfju3FJvGh6vmtEhWYi09rJm_Gu8r2fmD1-9j0jsKM_6aVd2E7BqKfpLKaSgh3y-WRSAxen7GX1J06zoYoGRwYFTDwmcFV0Ep0AskSy_BbOKG7HmiCRPZxrVtqGHl5Kr9rlZN7XS4rfPxn9YM9yMg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"message\": {\n    \"subject\": \"Meet for lunch?\",\n    \"body\": {\n      \"contentType\": \"Text\",\n      \"content\": \"The new cafeteria is open.\"\n    },\n    \"toRecipients\": [\n      {\n        \"emailAddress\": {\n          \"address\": \"urgd4@mst.edu\"\n        }\n      }\n    ]\n  }\n}"
+				},
+				"url": {
+					"raw": "https://graph.microsoft.com/v1.0/me/sendMail",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"me",
+						"sendMail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
